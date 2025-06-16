@@ -1,8 +1,7 @@
 apiVersion: v1
 kind: Namespace
-matadata:
-  name: expence
-  lables:
+metadata:
+  name: expense
+  labels:
     project: expense
-    envirornment: dev
-    
+    environment: dev

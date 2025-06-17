@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: pod
+metadata:
+  name: labels
+  labels:
+    envirornment: Dev
+    project: Expence
+    module: Backend
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+
+
+

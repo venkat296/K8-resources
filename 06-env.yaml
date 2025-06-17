@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: envirornment
+spec: 
+  containers:
+  - name: nginx
+    image: nginx
+    env: 
+      - name: cource
+        value: devops
+      - name: trainer
+        value: "durga"
+      
